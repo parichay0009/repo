@@ -1,0 +1,1 @@
+This is a gist for my blog/tutorial, "Creating a Chat App with Material Design using Polymer"
