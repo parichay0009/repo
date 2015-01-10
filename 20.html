@@ -1,5 +1,9 @@
 <div flex class="chat-list">
   <template repeat="{{message in messages}}">
-    <x-chat-list color="{{message.color}}" avatar="{{message.avatar}}" username="{{message.uuid}}" text="{{message.text}}"></x-chat-list>
+    <x-chat-list 
+      color="{{message.color}}" 
+      avatar="{{message.avatar}}" 
+      username="{{message.uuid}}" 
+      text="{{message.text}}"></x-chat-list>
   </template>
 </div>
