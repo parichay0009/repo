@@ -5,4 +5,9 @@ var randomColor = function() {
 
 var randomCat = function() { ... }; 
 
-template.uuid = randomColor() + '-' + randomCat();
+var color = randomColor();
+var cat = randomCat();
+
+template.uuid = color + '-' + cat;
+templtae.color = color;
+template.avatar = 'images/' + cat + '.jpg';
