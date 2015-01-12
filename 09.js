@@ -1,5 +1,5 @@
 template.items = [
-  {title: 'Uno', icon: 'cloud'},
-  {title: 'Dos', icon: 'polymer'},
-  {title: 'Tres', icon: 'favorite'}
+  {icon: 'cloud', title: 'PubNub'},
+  {icon: 'polymer', title: 'Polymer'},
+  {icon: 'favorite', title: 'Love'}
 ];
